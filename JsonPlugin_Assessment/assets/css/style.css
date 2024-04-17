@@ -1,0 +1,94 @@
+body {
+	background: #f1f1f1; 
+}
+.mainDiv{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+.form{
+	border: 2px solid black;
+	text-align: center;
+	padding: 80px 150px;
+}
+.mainDiv button{
+	background-color: yellow;
+	padding: 10px 50px;
+	margin: 20px;
+}
+.mainDiv input{
+	margin: 20px;
+	padding: 16px 20px;
+	text-align: center;
+	border-radius: 10px;
+}
+.navItems{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 20px;
+}
+.navPgBtn, .homeBtn{
+	background-color: green !important;
+	padding: 10px 50px;
+}
+a{
+    font-style: italic;
+}
+h5{
+	flex: auto;
+}
+.back{
+	background: none;
+	border: none;
+	margin-right: 40%;
+}
+.filter{
+	margin-top: 20px;
+	margin-left: 19%;
+}
+.lists{
+	text-align: center;
+	margin-top: 80px;
+}
+.col-lg-7{
+    width: 52.33333333%;
+    margin-right: 5%;
+}
+.col-lg-5{
+    width: 41.66666667%
+}
+.product, .cart, .users, .total{
+	border: 1px solid black;
+	padding: 20px;
+	margin-top: 20px;
+}
+.product, .users{
+	height: 300px;
+	background: #fff;
+	overflow-x: hidden;
+    overflow-y: auto;
+    text-align: center;
+}
+.cart, .total{
+	max-height: 300px;
+	overflow-x: hidden;
+    overflow-y: auto;
+    text-align: center;
+}
+.cartDiv{
+	border: 2px solid black;
+	margin: 30px;
+}
+.cost{
+	color: red;
+	font-size: 20px;
+}
+.symbol{
+	font-weight: bold;
+}
+.status{
+	color: blue;
+}
